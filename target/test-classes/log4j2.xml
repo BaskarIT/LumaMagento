@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Define Properties -->
+    <Properties>
+        <!-- Set log file path -->
+        <Property name="logPath">logs/automation.log</Property>
+        <!-- Define log pattern -->
+        <Property name="logPattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Property>
+    </Properties>
+
+    <!-- Appenders -->
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${logPattern}" />
+        </Console>
+
+        <!-- Rolling File Appender -->
+        <RollingFile name="RollingFile" fileName="${logPath}" filePattern="logs/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>${logPattern}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+        </RollingFile>
+    </Appenders>
+
+    <!-- Loggers -->
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="All">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="RollingFile" />
+        </Root>
+
+        <!-- Specific Logger for Selenium -->
+        <Logger name="org.openqa.selenium" level="debug" additivity="false">
+            <AppenderRef ref="RollingFile" />
+        </Logger>
+
+        <!-- Specific Logger for TestNG -->
+        <Logger name="org.testng" level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+    </Loggers>
+    
+</Configuration>

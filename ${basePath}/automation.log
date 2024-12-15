@@ -1,0 +1,4 @@
+12:15:35.331 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium\LumaMagento\testng.xml"
+12:15:35.526 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium\LumaMagento\testng.xml
+
