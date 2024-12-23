@@ -25,8 +25,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-import bsh.Capabilities;
-
 public class BaseClass {
 
 public static WebDriver driver;				//
@@ -43,11 +41,11 @@ public Properties p;
 		p.load(file);
 		
 		logger = LogManager.getLogger(this.getClass());
-		
-		if(p.getProperty("excecution_env").equalsIgnoreCase("remote"))
+
+		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
 			DesiredCapabilities capabilities = new DesiredCapabilities();
-			
+
 			if(os.equalsIgnoreCase("window"))
 			{
 				capabilities.setPlatform(Platform.WIN11);
@@ -69,10 +67,10 @@ public Properties p;
 			case "edge" :  capabilities.setBrowserName("MicrosoftEdge"); break;
 			default: System.out.println("No matching browser"); return;
 			}
-			
+
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd//hub"), capabilities);
 		}
-		
+
 		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 		{
 			switch(br.toLowerCase())
@@ -83,16 +81,16 @@ public Properties p;
 			default: System.out.println("Invalid browser name.."); return;
 			}
 		}
-		
+
 		// driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		driver.get(p.getProperty("appURL"));		// Reading url from properties file
 		driver.manage().window().maximize();
 		
 	}
-	
+
 	@AfterClass(groups={"Sanity","Regression","Master"})
 	public void tearDown()
 	{
@@ -104,34 +102,34 @@ public Properties p;
 		String generatedstring=RandomStringUtils.randomAlphabetic(5);
 		return generatedstring;
 	}
-	
+
 	public String randomNumber()
 	{
 		String generatedstring=RandomStringUtils.randomNumeric(10);
 		return generatedstring;
 	}
-	
+
 	public String randomAlphaNumeric()
 	{
 		String generatedstring=RandomStringUtils.randomAlphabetic(3);
 		String generatednumber=RandomStringUtils.randomNumeric(3);
 		return (generatedstring+"@"+generatednumber);
 	}
-	
+
 	public String captureScreen(String tname) throws IOException {
-		
+
 		String timeStamp = new SimpleDateFormat("yyyyMMddss").format(new Date());
-		
+
 		TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
-		
+
 		File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
-		
+
 		String targetFilePath=System.getProperty("user.dir")+"\\screenshots" + tname + " " + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
-		
+
 		sourceFile.renameTo(targetFile);
-		
+
 		return targetFilePath;
 	}
-	
+
 }

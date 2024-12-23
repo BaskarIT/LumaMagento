@@ -1,8 +1,12 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage{
 
@@ -43,6 +47,8 @@ public boolean isMyAccountPageExist()
 {
 	try
 	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		wait.until(ExpectedConditions.visibilityOf(msgHeading));
 	return (msgHeading.isDisplayed());
 	}
 	catch(Exception e)
@@ -51,13 +57,14 @@ public boolean isMyAccountPageExist()
 	}
 }
 
-public void clickMenu()
-{
-	ddlnkMenu.click();
-}
+  public void clickMenu()
+	{
+		ddlnkMenu.click();
+	}
 
-public void clickLogout()
-{
-	lnkLogout.click();
-}
+  public void clickLogout() 
+  { 
+	  lnkLogout.click(); 
+  }
+ 
 }

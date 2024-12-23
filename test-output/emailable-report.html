@@ -9,65 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">chrometest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">414</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">edgetest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">537</td><td></td><td></td></tr>
-<tr><td><a href="#t2">firefoxtest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">415</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">0</th><th class="num">1,366</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Linux-Firefox</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">86,118</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrometest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1734156275424</td><td rowspan="1">232</td></tr><tr><th colspan="4">chrometest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1734156275703</td><td rowspan="1">-1734156275703</td></tr><tr><th colspan="4">chrometest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m2">verify_account_registration</a></td><td rowspan="1">1734156275684</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">edgetest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m3">setup</a></td><td rowspan="1">1734156275522</td><td rowspan="1">302</td></tr><tr><th colspan="4">edgetest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1734156275828</td><td rowspan="1">-1734156275828</td></tr><tr><th colspan="4">edgetest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m5">verify_account_registration</a></td><td rowspan="1">1734156275826</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">firefoxtest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m6">setup</a></td><td rowspan="1">1734156275522</td><td rowspan="1">134</td></tr><tr><th colspan="4">firefoxtest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m7">tearDown</a></td><td rowspan="1">1734156275703</td><td rowspan="1">-1734156275703</td></tr><tr><th colspan="4">firefoxtest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m8">verify_account_registration</a></td><td rowspan="1">1734156275685</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Linux-Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m0">verify_account_registration</a></td><td rowspan="1">1734689482801</td><td rowspan="1">4308</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m1">verify_Login</a></td><td rowspan="1">1734689494243</td><td rowspan="1">65485</td></tr></tbody>
 </table>
-<h2>chrometest</h2><h3 id="m0">testCases.TC001_AccountRegistrationTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>windows</td><td>chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC001_AccountRegistrationTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>edgetest</h2><h3 id="m3">testCases.TC001_AccountRegistrationTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>windows</td><td>edge</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.TC001_AccountRegistrationTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>firefoxtest</h2><h3 id="m6">testCases.TC001_AccountRegistrationTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>windows</td><td>firefox</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testCases.TC001_AccountRegistrationTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because the return value of &quot;java.util.Properties.getProperty(String)&quot; is null
-	at testCases.BaseClass.setup(BaseClass.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Linux-Firefox</h2><h3 id="m0">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC002_LoginTest#verify_Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC002_LoginTest.verify_Login(TC002_LoginTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

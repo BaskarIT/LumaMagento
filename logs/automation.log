@@ -1,52 +1,14 @@
-2024-12-13 13:23:00 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 13:23:05 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 16:43:18 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 16:43:23 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 16:53:42 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 16:53:43 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 16:53:43 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 16:53:46 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 16:53:46 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 16:53:50 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 16:53:55 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 18:13:36 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:13:37 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:13:37 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:13:41 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:13:41 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:13:44 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:13:48 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 18:18:54 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:18:55 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:18:55 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:18:58 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:18:58 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:19:02 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:21:47 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:21:48 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:21:48 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:21:52 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:21:52 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:21:56 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:28:56 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:28:57 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:28:57 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:29:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:29:00 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:29:04 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:29:59 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:30:00 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:30:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:30:04 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:30:04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:30:08 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:30:39 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 18:36:33 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-13 18:36:34 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-13 18:36:34 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-13 18:36:37 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-13 18:36:37 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-13 18:36:41 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:36:46 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-13 18:54:30 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-13 18:54:34 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+2024-12-23 10:30:59 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
+2024-12-23 10:31:00 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
+2024-12-23 10:31:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+2024-12-23 10:31:04 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
+2024-12-23 10:31:04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+2024-12-23 10:31:08 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
+2024-12-23 10:31:12 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+2024-12-23 11:13:58 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
+2024-12-23 11:13:59 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
+2024-12-23 11:13:59 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+2024-12-23 11:14:02 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
+2024-12-23 11:14:02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+2024-12-23 11:14:07 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
+2024-12-23 11:14:11 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***

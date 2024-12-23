@@ -25,7 +25,7 @@ public class TC003_LoginDDT extends BaseClass{
 			lp.setEmail(email);
 			lp.setPassword(pwd);
 			lp.clickLogIn();
-		
+
 		//ConfirmMyAccount
 			boolean targetPage = hp.isMyAccountPageExist();
 
@@ -64,7 +64,7 @@ public class TC003_LoginDDT extends BaseClass{
 	{
 		Assert.fail();
 	}
-	
+
 	Thread.sleep(3000);
 	logger.info(" *** Finished TC003_LoginDDT *** ");
   }

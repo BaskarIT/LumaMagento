@@ -5,8 +5,8 @@
  <suite name="Master Suite" >
  	<groups>
  		<run>
- 			<include name="Master"/> 		<!--Collection of everything -->
- 			<!-- <include name="Sanity"/> -->				<!--Basic Testcases -->
+ 			<include name="Master"/> 				<!--Collection of everything -->
+ 			<!-- <include name="Sanity"/> -->		<!--Basic Testcases -->
  			<!--<include name="Regression"/> -->	<!--Every cycle of the testing -->
  			<!--<exclude name=""/> -->
  		</run>
