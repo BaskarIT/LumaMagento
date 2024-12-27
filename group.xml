@@ -6,7 +6,7 @@
  	<groups>
  		<run>
  			<include name="Master"/> 		<!--Collection of everything -->
- 			<!-- <include name="Sanity"/> -->				<!--Basic Testcases -->
+ 			<include name="Sanity"/>				<!--Basic Testcases -->
  			<!--<include name="Regression"/> -->	<!--Every cycle of the testing -->
  			<!--<exclude name=""/> -->
  		</run>
@@ -21,10 +21,11 @@
     	<parameter name="browser" value="chrome" />
  
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/> 
-      <class name="testCases.TC002_LoginTest"/> 
+    <!--  <class name="testCases.TC001_AccountRegistrationTest"/> -->
+     <!--  <class name="testCases.TC002_LoginTest"/> -->
      <!-- <class name="testCases.TC003_LoginDDT"/> -->
-
+    <class name="testCases.TC003_LoginDDT"/> 
+	
     </classes>
   </test> <!-- Test -->
  </suite> <!-- Suite -->

@@ -32,6 +32,11 @@ WebElement ddlnkMenu;
 @FindBy(xpath="//div[@aria-hidden='false']//a[normalize-space()='Sign Out']")
 WebElement lnkLogout;
 
+@FindBy(xpath="//img[@src='https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-main.jpg']")
+WebElement imgHomeBanner;
+
+
+
 public void clickCreateAccount()
 {
 	lnkCreateAccount.click();
@@ -42,6 +47,12 @@ public void clickLogIn()
 
 	lnkLogin.click();
 }
+
+public void ClickHomeBanner()
+{
+	imgHomeBanner.click();
+}
+
 
 public boolean isMyAccountPageExist()
 {

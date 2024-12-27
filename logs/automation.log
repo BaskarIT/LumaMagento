@@ -1,14 +1,108 @@
-2024-12-23 10:30:59 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-23 10:31:00 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-23 10:31:00 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-23 10:31:04 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-23 10:31:04 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-23 10:31:08 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-23 10:31:12 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
-2024-12-23 11:13:58 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC001_AccountRegistrationTest ***
-2024-12-23 11:13:59 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Clicked on CreateAccount Link ***
-2024-12-23 11:13:59 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-2024-12-23 11:14:02 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
-2024-12-23 11:14:02 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-2024-12-23 11:14:07 [main] INFO  testCases.TC002_LoginTest - ** Starting TC002_LoginTest **
-2024-12-23 11:14:11 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+2024-12-27 11:14:14 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 11:14:15 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 11:48:08 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 11:48:10 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 11:59:27 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 11:59:28 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:01:10 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:01:11 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:21:02 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:21:03 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:37:29 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:37:30 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:40:38 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:40:39 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:49:43 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:49:44 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 12:58:46 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 12:58:47 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:04:53 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 13:04:54 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:27:29 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 13:27:30 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:30:08 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 13:30:10 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:49:20 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 13:49:21 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:49:21 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 13:49:21 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 13:55:01 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 13:55:02 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 13:55:02 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 13:55:02 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 13:55:04 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 13:55:04 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:16:25 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:16:26 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:16:26 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:16:26 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:16:28 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:16:28 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:18:47 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:18:48 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:18:48 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:18:48 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:18:50 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:18:50 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:21:50 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:21:51 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:21:51 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:21:51 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:28:23 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:28:24 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:28:24 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:28:24 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:28:26 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:28:26 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:34:41 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:34:42 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:34:42 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:34:42 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:34:44 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:34:44 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:50:47 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:50:48 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:50:48 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:50:48 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:50:51 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:50:51 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:51:02 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 14:59:30 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 14:59:31 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 14:59:31 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 14:59:31 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 14:59:33 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 14:59:34 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 14:59:45 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 15:02:42 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 15:02:43 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 15:02:43 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 15:02:43 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 15:02:46 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 15:02:46 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 15:02:57 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 15:33:17 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 15:33:18 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 15:33:18 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 15:33:18 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 15:33:21 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 15:33:21 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 15:33:32 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 15:41:26 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 15:41:27 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 15:41:27 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 15:41:27 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 15:41:29 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 15:41:29 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 15:41:40 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 15:41:43 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Add to Cart button test passed.
+2024-12-27 15:41:43 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - *** Finished TC005_ProductDetailsValidation ***
+2024-12-27 15:50:23 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - WhatsNew test passed.
+2024-12-27 15:50:24 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Hoodie Product List test passed.
+2024-12-27 15:50:25 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 1
+2024-12-27 15:50:25 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 12
+2024-12-27 15:50:27 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Processing Page: 2
+2024-12-27 15:50:27 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Total Products Found: 1
+2024-12-27 15:50:38 [main] INFO  pageObjects.Hoodies_Sweatshirts_Page - Navigated back to the first page.
+2024-12-27 15:50:40 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - Add to Cart button test passed.
+2024-12-27 15:50:40 [main] INFO  testCases.TC005_Hoodies_Sweatshirts - *** Finished TC005_ProductDetailsValidation ***
